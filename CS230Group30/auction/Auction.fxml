@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="auction.AuctionControler">
+    <children>
+        <Pane opacity="0.5" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CFB53B #CFB53B;" />
+        <Pane prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <MenuBar prefHeight="25.0" prefWidth="600.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="Options">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Profile" />
+                                <MenuItem mnemonicParsing="false" text="Browse" />
+                                <MenuItem mnemonicParsing="false" text="Log Out" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <ImageView fx:id="picture" fitHeight="217.0" fitWidth="188.0" layoutX="86.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../CKJvgmwWwAAKJXi.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="365.0" layoutY="63.0" text="Title: " />
+                <Button fx:id="button" layoutX="77.0" layoutY="296.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="188.0" text="Bid Now">
+                    <graphic>
+                        <TextField fx:id="textfeild" prefHeight="25.0" prefWidth="119.0" />
+                    </graphic>
+                </Button>
+                <Group layoutX="365.0" layoutY="92.0">
+                    <children>
+                        <Label layoutY="3.0" text="Seller:" />
+                        <Hyperlink fx:id="seler" layoutX="33.0" text="Rosa" />
+                    </children>
+                </Group>
+                <Label layoutX="365.0" layoutY="192.0" text="Reserve Price: " />
+                <Label layoutX="365.0" layoutY="222.0" text="Current Bid: " />
+                <Label fx:id="currentBId" layoutX="439.0" layoutY="222.0" text="£3500" />
+                <Label fx:id="reservePrice" layoutX="455.0" layoutY="192.0" text="£3000" />
+                <Label fx:id="title" layoutX="397.0" layoutY="63.0" text="Starry Night " />
+                <Label layoutX="365.0" layoutY="125.0" text="Name of Creator:" />
+                <Label fx:id="creator" layoutX="476.0" layoutY="125.0" text="Vincent Van Goph" />
+                <Label layoutX="365.0" layoutY="160.0" text="Year Created:" />
+                <Label fx:id="year" layoutX="451.0" layoutY="160.0" text="1889" />
+                <Label layoutX="365.0" layoutY="249.0" text="Uploaded:" />
+                <Label fx:id="date" layoutX="429.0" layoutY="249.0" text="[date]" />
+                <Label layoutX="468.0" layoutY="249.0" text="[time]" />
+                <Label layoutX="365.0" layoutY="279.0" text="Dimensions:" />
+                <Label layoutX="441.0" layoutY="279.0" text="w:" />
+                <Label layoutX="486.0" layoutY="279.0" text="h:" />
+                <Label layoutX="526.0" layoutY="279.0" text="d:" />
+                <Label layoutX="365.0" layoutY="314.0" text="Main Material:" />
+                <Label fx:id="material" layoutX="459.0" layoutY="314.0" text="Canvas" />
+                <Label fx:id="dim1" layoutX="455.0" layoutY="279.0" text="100" />
+                <Label fx:id="dim2" layoutX="501.0" layoutY="279.0" text="100" />
+                <Label layoutX="539.0" layoutY="279.0" text="-" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

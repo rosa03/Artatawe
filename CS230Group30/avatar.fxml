@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="738.0" prefWidth="787.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane opacity="0.5" prefHeight="741.0" prefWidth="787.0" style="-fx-background-color: #CFB53B;" />
+      <Pane layoutY="-1.0" prefHeight="733.0" prefWidth="787.0">
+         <children>
+            <Pane layoutX="87.0" layoutY="56.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: gold; -fx-border-width: 3;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar1" fitHeight="148.0" fitWidth="170.0" layoutX="6.0" layoutY="14.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="524.0" layoutY="56.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-width: 3; -fx-border-color: gold;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar3" fitHeight="153.0" fitWidth="170.0" layoutX="3.0" layoutY="14.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true" styleClass="selected">
+                     <image>
+                        <Image url="@145841-avatar-set3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="310.0" layoutY="56.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-width: 3; -fx-border-color: gold;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar2" fitHeight="146.0" fitWidth="170.0" layoutX="3.0" layoutY="17.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="87.0" layoutY="250.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: gold; -fx-border-width: 3;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar4" fitHeight="148.0" fitWidth="170.0" layoutX="8.0" layoutY="13.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set5.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="524.0" layoutY="250.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: gold; -fx-border-width: 3;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar6" fitHeight="151.0" fitWidth="160.0" layoutX="8.0" layoutY="16.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set7.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="310.0" layoutY="250.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-width: 3; -fx-border-color: gold;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar5" fitHeight="146.0" fitWidth="170.0" layoutX="3.0" layoutY="20.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set6.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="87.0" layoutY="453.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: gold; -fx-border-width: 3;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar" fitHeight="141.0" fitWidth="161.0" layoutX="11.0" layoutY="17.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set8.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="524.0" layoutY="453.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: gold; -fx-border-width: 3;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar9" fitHeight="153.0" fitWidth="170.0" layoutX="5.0" layoutY="11.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set10.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="310.0" layoutY="453.0" prefHeight="175.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-width: 3; -fx-border-color: gold;">
+               <children>
+                  <ImageView id="avatar" fx:id="avatar8" fitHeight="146.0" fitWidth="170.0" layoutX="7.0" layoutY="14.0" onMouseClicked="#selected" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@145841-avatar-set9.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="submit" layoutX="87.0" layoutY="684.0" mnemonicParsing="false" text="Submit">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="87.0" layoutY="649.0" text="Please Select An Avatar For Your Profile">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="182.0" fitWidth="200.0" layoutX="612.0" layoutY="601.0">
+               <image>
+                  <Image url="@../../../../Downloads/24726827_10210575446044945_2143195738_n.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <MenuBar prefHeight="29.0" prefWidth="787.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Back" />
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>

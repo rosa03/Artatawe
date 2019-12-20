@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-1.0" opacity="0.5" prefHeight="400.0" prefWidth="591.0" style="-fx-background-color: #CFB53B;" />
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="467.0" layoutY="76.0" mnemonicParsing="false" text="Sell Artwork" />
+            <ImageView fitHeight="176.0" fitWidth="194.0" layoutX="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/Untitled.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="143.0" fitWidth="115.0" layoutX="452.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/1200px-The_Scream.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="179.0" layoutX="252.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pictures/van_gogh_vincent_7.jpg" />
+               </image>
+            </ImageView>
+            <Hyperlink layoutX="121.0" layoutY="340.0" prefHeight="23.0" prefWidth="97.0" text="Mona Lisa (1503) ">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Hyperlink>
+            <ImageView fitHeight="144.0" fitWidth="116.0" layoutX="124.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: white;">
+               <image>
+                  <Image url="@../../../Pictures/1200px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="150.0" layoutY="363.0" prefHeight="17.0" prefWidth="39.0" text="£4500">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="283.0" layoutY="340.0" prefHeight="23.0" prefWidth="112.0" text="Starry Night (1889)">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="319.0" layoutY="363.0" prefHeight="17.0" prefWidth="39.0" text="£3000">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="449.0" layoutY="340.0" prefHeight="23.0" prefWidth="112.0" text="The Scream (1893)">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="485.0" layoutY="363.0" prefHeight="17.0" prefWidth="39.0" text="£2700">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Pane layoutY="188.0" prefHeight="213.0" prefWidth="112.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="12.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type of artwork:">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <CheckBox layoutX="15.0" layoutY="188.0" mnemonicParsing="false" text="&gt;£4000">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="15.0" layoutY="168.0" mnemonicParsing="false" text="£2000 - £4000">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="15.0" layoutY="144.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="97.0" text="£500 - £1999">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="15.0" layoutY="121.0" mnemonicParsing="false" text="&lt;£500">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="15.0" layoutY="55.0" mnemonicParsing="false" text="Paintings">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox layoutX="15.0" layoutY="80.0" mnemonicParsing="false" text="Sculptures">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </CheckBox>
+                  <Text layoutX="44.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="42.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filter" wrappingWidth="28.218748599290848">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <MenuBar layoutX="-1.0" layoutY="1.0" prefHeight="25.0" prefWidth="600.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Options">
+                  <items>
+                        <MenuItem mnemonicParsing="false" text="Profile" />
+                        <MenuItem mnemonicParsing="false" text="Log Out" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <TextFlow layoutX="218.0" layoutY="134.0" prefHeight="27.0" prefWidth="203.0">
+               <children>
+                  <TextField />
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="53.0" text="Search" />
+               </children>
+            </TextFlow>
+         </children>
+      </Pane>
+      <ScrollBar layoutX="586.0" layoutY="25.0" orientation="VERTICAL" prefHeight="375.0" prefWidth="14.0" />
+   </children>
+</Pane>
